@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>spotify - web player</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="./assets/logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="main">
+    <div class="sidebar"> 
+         <div class="navbar">
+            <div class="navo" style="opacity: 1;"> 
+                <i class="fa-solid fa-house"></i>
+                <a href="#">Home</a>
+            </div> 
+            <div class="navo"> 
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <a href="#">Search</a>
+            </div> 
+        </div>
+        <div class="lib"> 
+            <div class="option">
+                <div class="liboption navo">
+                    <img src="./assets/library_icon.png" alt="">
+                    <a href="#"> Your library</a>
+                </div>
+            
+             <div class="icons">
+                <i class="fa-solid fa-plus"></i>
+                <i class="fa-solid fa-arrow-right"></i>
+             </div>
+            </div>
+                <div class="lib-box">
+                    <div class="box">
+                        <p class="box-p1"> create first playlist</p>
+                        <p class="box-p2">it's easy,we'll help you</p>
+                        <button class="badge">Create playlist</button>
+                    </div>
+                    <div class="box">
+                        <p class="box-p1">Let's find some podcasts to follow</p>
+                        <p class="box-p2">We'll keep you updated on new episodes</p>
+                        <button class="badge">Browse podcasts</button>
+                    </div>
+                </div>
+            </div>
+    </div>      
+
+ <div class="maincon"> 
+    <div class="sticky-nav">
+                <div class="sticky-icons">  
+                    <img src="./assets/backward_icon (1).png" alt="">
+                    <img src="./assets/forward_icon.png" class="hide">
+                </div>
+                <div class="sticky-option ">
+                    <button class="badge sticky-item hide">Explore Primium</button>
+                    <button class="badge sticky-item dark-badge"><i class="fa-regular fa-circle-down " style="margin-right: 5px;"> </i> Install App</button>
+                    <i class="fa-regular fa-user sticky-item"></i>
+                </div>
+                
+    </div>
+
+            
+                <h2>Recently Played</h2>
+                <div class="cards-cont">
+                    <div class="card">
+                        <img src="./assets/card1img.jpeg" class="card-img">
+                        <p class="card-title" style=" line-height: 2rem;">Top 50 - Global </p>
+                        <p class="card-info" >Your daily updates of the most played... </p>
+                    </div>
+                </div>
+
+                <h2>Tranding now near you</h2>
+                <div class="cards-cont">
+
+                    <div class="card">
+                        <img src="./assets/card2img.jpeg" class="card-img">
+                        <p class="card-title" style=" line-height: 2rem;">Mahiye Jinna Sohna </p>
+                        <p class="card-info" >Darshan Raval, <br> 2023...</p>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/item-1.jpg" class="card-img">
+                        <p class="card-title" style=" line-height: 2rem;">Lofi beates </p>
+                        <p class="card-info" >chill beates , lofi vibes, new tracks every week...</p>
+                    </div>
+                
+                    <div class="card">
+                        <img src="./assets/card3img.jpeg" class="card-img">
+                        <p class="card-title" style=" line-height: 2rem;">Mere Paas Tum Ho </p>
+                        <p class="card-info" >by Silent Ocean, which is a lo-fi mix.... </p>
+                    </div>
+
+                    <div class="card">
+                        <img src="./assets/card4img.jpeg" class="card-img">
+                        <p class="card-title" style=" line-height: 2rem;">Leo-Naa Ready </p>
+                        <p class="card-info" >Your daily updates of the most played... </p>
+                    </div>
+
+                </div>
+                <h2>Popular albums</h2>
+                <div class="cards-cont">
+                    <div class="card">
+                        <img src="./assets/item-2.jpg" class="card-img">
+                        <p class="card-title" style=" line-height: 2rem;">Today's Top Hits </p>
+                        <p class="card-info" >Your daily updates of the most played... </p>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/item-3.jpg" class="card-img">
+                        <p class="card-title" style=" line-height: 2rem;">Chillout Lounge </p>
+                        <p class="card-info" >Just lean back and enjoy relaxed beats... </p>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/item-4.jpg" class="card-img">
+                        <p class="card-title" style=" line-height: 2rem;">Top 20- ALL OUT</p>
+                        <p class="card-info" >top 20 most played... </p>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/item-5.jpg" class="card-img">
+                        <p class="card-title" style=" line-height: 2rem;">Jazz in the background </p>
+                        <p class="card-info" >Soft instrumental jazz for all your activites... </p>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/item-6.jpg" class="card-img">
+                        <p class="card-title" style=" line-height: 2rem;">Pehle Bhi Main-Animal </p>
+                        <p class="card-info" >Song-Vishal Mishra, Raj Shekhar... </p>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/item-8.jpg" class="card-img">
+                        <p class="card-title" style=" line-height: 2rem;">H U S N </p>
+                        <p class="card-info" >Song-Anuj Jain ,<br> 2021... </p>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/item-10.jpg" class="card-img">
+                        <p class="card-title" style=" line-height: 2rem;">Satranga-ANIMAL</p>
+                        <p class="card-info" >Song-Arjit Singh,Shreyas P<br>2023... </p>
+                    </div>
+                   
+                    <div class="card">
+                        <img src="./assets/item-7.jpg" class="card-img">
+                        <p class="card-title" style=" line-height: 2rem;">Cheques</p>
+                        <p class="card-info" >Shubh - Still Rollin <br>2023...</p>
+                    </div>
+                   
+                </div>
+                <h2>Featured Charts</h2>
+                <div class="cards-cont">
+
+                    <div class="card">
+                        <img src="./assets/card5img.jpeg" class="card-img">
+                        <p class="card-title" style=" line-height: 2rem;">Top Song - Global </p>
+                        <p class="card-info" >Your daily updates of the most played... </p>
+                    </div>
+
+                    <div class="card">
+                        <img src="./assets/card6img.jpeg" class="card-img">
+                        <p class="card-title" style=" line-height: 2rem;">Top Song - India </p>
+                        <p class="card-info" >Your daily updates of the most played... </p>
+                    </div>
+
+                    <div class="card">
+                        <img src="./assets/card1img.jpeg" class="card-img">
+                        <p class="card-title" style=" line-height: 2rem;">Top 50 - Global </p>
+                        <p class="card-info" >Your daily updates of the most played... </p>
+                    </div>
+
+                   
+                    <div class="card">
+                        <img src="./assets/item-9.jpg" class="card-img">
+                        <p class="card-title" style=" line-height: 2rem;">Top 50 -Hin&Eng </p>
+                        <p class="card-info" >Your daily updates of the most played... </p>
+                    </div>
+                </div>
+                <div class="footer">
+                    <div class="line"></div>
+
+                </div>
+
+
+ </div>
+  
+ <div class="music-player">
+            <div class="album">
+                <img src="./assets/item-6.jpg" class="album-img">
+                <p style="font-size: small;">Daylight <br> david kumar</P>
+                
+                <i class="fa-regular fa-heart s "></i>
+
+
+
+            </div>
+            <div class="player">
+                <div class="player-controls">
+                    <img src="./assets/player_icon1.png"class="player-controls-icon" >
+                    <img src="./assets/player_icon2.png"class="player-controls-icon" >
+                    <img src="./assets/player_icon3.png" class="player-controls-icon" style="opacity: 1;height: 2rem;">
+                    <img src="./assets/player_icon4.png"class="player-controls-icon" >
+                    <img src="./assets/player_icon5.png"class="player-controls-icon" >
+                </div>
+                <div class="playback-bar">
+                    <span class="curr-time">00:00</span>
+                    <input type="range" min="0" max="100" class="progress-bar" step="1">
+                    <span class="tot-time">
+                        3.33
+                    </span>
+
+                </div>
+             
+
+            </div>
+            <div class="controls">
+                <i class="fa-brands fa-bluetooth m"></i>
+                <i class="fa-regular fa-microphone m"></i>
+                <i class="fa-solid fa-volume-high m"></i>
+                <i class="fa-solid fa-headphones m"></i>
+
+            </div>
+
+            
+    </div>
+</div>
+</body>
+</html>
